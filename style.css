@@ -1,0 +1,30 @@
+td {
+    width: .7em;
+    height: .7em;
+    border: 1px solid black;
+    user-select: none;
+}
+
+.visited {
+    background-color: rgb(197, 255, 197);
+}
+
+.path {
+    background-color: rgb(255, 153, 0);
+}
+
+.wall {
+    background-color: black;
+}
+
+.start-cell {
+    background-color: green;
+}
+
+.end-cell {
+    background-color: navy;
+}
+
+table {
+    border-collapse: collapse;
+}

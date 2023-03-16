@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="table-wrap">
+  </div>
+  <button id="start-dijkstra">Start Dijkstra</button>
+  <button id="start-astar">Start A*</button>
+  <button id="clear">Clear</button>
+  <button id="restart">Restart</button>
+  <label for="animate">Animate</label>
+  <input type="checkbox" name="animate" id="animate">
+  <p id="time"></p>
+  <script type="module" src="/draw.js"></script>
+  <script type="module" src="/dijkstra.js"></script>
+  <script type="module" src="/astar.js"></script>
+</body>
+
+</html>
